@@ -8,7 +8,7 @@ const article = ({ article }) => {
   // const router = userRouter()
   // const {id} = router.query
   return <>
-    <Meta title={article.title} description={article.excerpt} />
+    <Meta title={article.title} description={article.body} />
     <h1>{article.title}</h1>
     <p>{article.body}</p>
     <br />
