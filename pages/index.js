@@ -23,7 +23,7 @@ export default function Home({ articles }) {
 // }
 
 export const getStaticProps = async () => {
-  const res = await fetch(`${server}`,)
+  const res = await fetch(`${server}?_limit=10`,)
   const articles = await res.json()
 
   return {
