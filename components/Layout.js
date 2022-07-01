@@ -14,7 +14,6 @@ const Layout = ({ children }) => {
                     <Header />
                     {children}
                 </main>
-                layout
             </div>
         </>
     )
